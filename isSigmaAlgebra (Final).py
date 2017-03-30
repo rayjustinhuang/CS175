@@ -15,19 +15,22 @@ def is_sigma_algebra(space, sets):
         True if 'sets' is a sigma-algebra of 'space'
     """
     check = []
-    test = sets
     if [] not in sets:
         return False
     if not set([element for subset in sets for element in subset]) == set(space):
         return False
-    for i in test:
+    for i in sets:
         i.sort()
-    for i in test:
-        temp = list(set(space).difference(set(i)))
-        temp.sort()
+    for i in sets:
+        for j in sets:
+            if not i == j:
+                m = sorted(list(set(i + j)))
+                check.append(m in sets)
+    for i in sets:
+        temp = sorted(list(set(space).difference(set(i))))
         check.append(temp in sets)
-        if temp in test:
-            test.remove(temp)
+        if temp in sets:
+            sets.remove(temp)
     return all(check)
 
 
@@ -55,11 +58,11 @@ test_sets7 = [['Green', 'Blue', 'Red', 'Yellow'],[]]
 test_space8 = ['a','b','c','d']
 test_sets8 = [[],['a','b'],['c','d'],['a','b','c','d']]
 
-print(is_sigma_algebra(test_space1, test_sets1), "test 1")  # True
-print(is_sigma_algebra(test_space2, test_sets2), "test 2")  # True
-print(is_sigma_algebra(test_space3, test_sets3), "test 3")  # False
-print(is_sigma_algebra(test_space4, test_sets4), "test 4")  # True
-print(is_sigma_algebra(test_space5, test_sets5), "test 5")  # False
-print(is_sigma_algebra(test_space6, test_sets6), "test 6")  # False
-print(is_sigma_algebra(test_space7, test_sets7), "test 7")  # True
-print(is_sigma_algebra(test_space8, test_sets8), "test 8")  # True
+print(is_sigma_algebra(test_space1, test_sets1), "- test 1")  # True
+print(is_sigma_algebra(test_space2, test_sets2), "- test 2")  # False
+print(is_sigma_algebra(test_space3, test_sets3), "- test 3")  # False
+print(is_sigma_algebra(test_space4, test_sets4), "- test 4")  # True
+print(is_sigma_algebra(test_space5, test_sets5), "- test 5")  # False
+print(is_sigma_algebra(test_space6, test_sets6), "- test 6")  # False
+print(is_sigma_algebra(test_space7, test_sets7), "- test 7")  # True
+print(is_sigma_algebra(test_space8, test_sets8), "- test 8")  # True
