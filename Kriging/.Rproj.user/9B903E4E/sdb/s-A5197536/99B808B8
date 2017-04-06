@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(dplyr)\n\ncali <- read.csv(\"geochem-fuS06.csv\")\nglimpse(cali)\nselectedcolumns <- c(\"latitude\", \"longitude\",\"qd250name\",\"as_aa\",\"cr_icp40\", \"zn_icp40\")\nfinal <- subset(cali, select = selectedcolumns)\nfinal <- rename(final, c(\"latitude\"=\"Latitude\",\"longitude\"=\"Longitude\",\"qd250name\"=\"Place\",\"as_aa\"=\"As\",\"cr_icp40\"=\"Cr\",\"zn_icp40\"=\"Zn\"))\n\ntrainsize <- 0.4*nrow(final)\ntrainrows <- sample(seq_len(nrow(final)), size = trainsize)\ntraining <- final[trainrows, ]\ntestwithactuals <- final[-trainrows, ]\n\ntest <- testwithactuals\ntest[ , c(\"As\",\"Cr\",\"Zn\")] <- \"?\"\n\nwrite.csv(training, \"Kriging Train Data.csv\")\nwrite.csv(test, \"Kriging Test Data.csv\")\nwrite.csv(testwithactuals, \"Kriging Test Data with Actual Values.csv\")\n\nkrigedata <- read.csv(\"Kriging Train Data.csv\")\ntest <- read.csv(\"Kriging Test Data with Actual Values.csv\")\n\n\nsummary(training)\nsummary(testwithactuals)\n\nplot(training$Zn)\nplot(testwithactuals$Zn)\n\nrm(list = ls())\n",
+    "created" : 1490932620169.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3511118908",
+    "id" : "99B808B8",
+    "lastKnownWriteTime" : 1491032212,
+    "last_content_update" : 1491032212890,
+    "path" : "~/UP Files/CS 175/Lab/Kriging/Kriging Data Prep.R",
+    "project_path" : "Kriging Data Prep.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# rm(list = ls())\n\ncalidata <- read.csv(\"Kriging Train Data.csv\")\n\ninstall.packages(\"sp\")\ninstall.packages(\"gstat\")\n\nlibrary(sp)\nlibrary(gstat)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(scales)\nlibrary(magrittr)\nlibrary(gridExtra)\n\nglimpse(calidata)\n\ncalidata <- within(calidata, rm(X))\n\nglimpse(calidata)\n\n# Initial plot of Zn concentration in California\ncalidata %>% as.data.frame %>%\n  ggplot(aes(Longitude, Latitude)) +\n  geom_point(aes(size = Zn),\n             color = \"forestgreen\",\n             alpha = 0.75) +\n  ggtitle(\"Zinc Concentration (ppm)\") +\n  coord_equal()\n\n# Remove rows where columns of interest have NA values\nnasremoved <- complete.cases(calidata[, c(\"Zn\", \"Longitude\", \"Latitude\")])\nkrigedata <- calidata[nasremoved, ]\n\n# Convert data to spatial points dataframe\ncoordinates(krigedata) <- ~ Longitude + Latitude\n\n# View bounding box of data\nbbox(krigedata)\n\n# Check coordinates\ncoordinates(krigedata)\n\n# Check data\nkrigedata@data %>% glimpse\n\n# Coerce data into a dataframe, i.e. for ggplot2\n# kridgedata %>% as.data.frame\n\n### Variogram Fitting\n\nsamplevario <- variogram(log(Zn) ~ 1, krigedata)\nplot(samplevario, main = \"Sample Semivariogram\")\n\nfitmodel <- fit.variogram(samplevario, model = vgm(\"Sph\"))\nplot(samplevario, fitmodel, main = \"Fitted Semivariogram\")\n\n### Kriging\n\n# Spatial domain to interpolate over\ntest <- read.csv(\"Kriging Test Data.csv\")\n\n# Plot points with measurements\nknownpoints <- krigedata %>% as.data.frame %>%\n  ggplot(aes(Longitude, Latitude)) +\n  geom_point(size = 1) +\n  coord_equal() +\n  ggtitle(\"Points with measurements\")\nknownpoints\n\n# Plot points to interpolate (krige) over\nunknownpoints <- test %>% as.data.frame %>%\n  ggplot(aes(Longitude, Latitude)) + \n  geom_point(size = 1) + \n  coord_equal() + \n  ggtitle(\"Points to krige\")\nunknownpoints\n\n# View plots side-by-side\ngrid.arrange(knownpoints, unknownpoints, ncol = 2)\n\n# Convert spatial domain into an SPDF\ncoordinates(test) <- ~ Longitude + Latitude\n\n# Remove duplicate coordinates\nkrigedata <- krigedata[-zerodist(krigedata)[,1],]\ntest <- test[-zerodist(test)[,1],]\n\n# Universal kriging (assume linear dependence on coordinates)\nkrigedmodel <- krige(log(Zn) ~ 1,\n                     krigedata, test,\n                     model = fitmodel)\n\nkrigedmodel%>% as.data.frame %>% glimpse\n\n# Heat mapping\nkrigedmodel %>% as.data.frame %>%\n  ggplot(aes(x=Longitude, y=Latitude)) +\n  geom_point(aes(color = var1.pred), alpha = 0.7) + \n  coord_equal() + \n  scale_color_gradient(low = \"yellow\", high = \"red\", name = \"Natural Logarithm\\nof Zinc Concentration\") +\n  scale_x_continuous(labels = comma) +\n  scale_y_continuous(labels = comma) +\n  theme_bw() +\n  ggtitle(\"Kriged Data\")\n\ntestwithactuals <- read.csv(\"Kriging Test Data with Actual Values.csv\")\ncoordinates(testwithactuals) <- ~ Longitude + Latitude\ntestwithactuals <- testwithactuals[-zerodist(testwithactuals)[,1],]\n",
+    "created" : 1491031881424.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "498597060",
+    "id" : "906D7047",
+    "lastKnownWriteTime" : 1491144525,
+    "last_content_update" : 1491144758505,
+    "path" : "~/UP Files/CS 175/Lab/Kriging/Kriging with R.R",
+    "project_path" : "Kriging with R.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

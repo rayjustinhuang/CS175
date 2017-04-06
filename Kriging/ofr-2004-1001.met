@@ -1,0 +1,1652 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Geological Survey
+      Publication_Date: 2004
+      Title: The National Geochemical Survey - database and documentation
+      Edition: 1.5
+      Geospatial_Data_Presentation_Form: tables
+      Series_Information:
+        Series_Name: U.S. Geological Survey Open-File Report
+        Issue_Identification: 2004-1001
+      Publication_Information:
+        Publication_Place: Reston VA
+        Publisher: U.S. Geological Survey
+      Online_Linkage: http://tin.er.usgs.gov/geochem/
+  Description:
+    Abstract:
+      The USGS, in collaboration with other federal and state government
+      agencies, industry, and academia, is conducting the National
+      Geochemical Survey (NGS) to produce a body of geochemical data for
+      the United States based primarily on stream sediments, analyzed
+      using a consistent set of methods.  These data will compose a
+      complete, national-scale geochemical coverage of the US, and will
+      enable construction of geochemical maps, refine estimates of
+      baseline concentrations of chemical elements in the sampled media,
+      and provide context for a wide variety of studies in the geological
+      and environmental sciences.  The goal of the NGS is to analyze at
+      least one stream-sediment sample in every 289 km2 area by a single
+      set of analytical methods across the entire nation, with other solid
+      sample media substituted where necessary. The NGS incorporates
+      geochemical data from a variety of sources, including existing
+      analyses in USGS databases, reanalyses of samples in USGS archives,
+      and analyses of newly collected samples.  At the present time, the
+      NGS includes data covering ~71% of the land area of the US,
+      including samples in all 50 states.
+
+      This version of the online report provides complete access to NGS
+      data, describes the history of the project, the methodology used,
+      and presents preliminary geochemical maps for all analyzed elements.
+      Future editions of this and other related reports will include the
+      results of analysis of variance studies, as well as interpretive
+      products related to the NGS data.
+
+      This database provides in digital form many geochemical analyses
+      reported by USGS in its published literature.
+    Purpose:
+      These data will compose a complete, national-scale geochemical
+      coverage of the US, and will enable construction of geochemical
+      maps, refine estimates of baseline concentrations of chemical
+      elements in the sampled media, and provide context for a wide
+      variety of studies in the geological and environmental sciences.
+      The goal of the NGS is to analyze at least one stream-sediment
+      sample in every 289 km2 area by a single set of analytical methods
+      across the entire nation, with other solid sample media substituted
+      where necessary.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19670711
+        Ending_Date: 2007
+    Currentness_Reference: Sample collection dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -178.763350
+      East_Bounding_Coordinate: 158.257500
+      North_Bounding_Coordinate: 71.318300
+      South_Bounding_Coordinate: 6.906500
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Gateway to the Earth
+      Theme_Keyword: Geochemistry
+      Theme_Keyword: Unconsolidated deposits
+      Theme_Keyword: Field sampling
+      Theme_Keyword: Chemical analysis
+      Theme_Keyword: Atomic absorption analysis
+      Theme_Keyword: Neutron activation analysis
+      Theme_Keyword: Particle-beam spectroscopy
+      Theme_Keyword: X-ray fluorescence spectrometry
+      Theme_Keyword: Atomic emission spectrometry
+    Place:
+      Place_Keyword_Thesaurus: Augmented FIPS 10-4 and FIPS 6-4, version 1.0
+      Place_Keyword: US = United States
+  Access_Constraints: none
+  Use_Constraints:
+    Mercury is a difficult element for which to obtain accurate analyses.
+    Samples can easily be contaminated with Hg during handling, storage,
+    and preparation for analysis. Mercury can also be lost from samples
+    during the drying process or while in storage. Recently collected
+    samples were handled and stored in a manner that should result in few
+    such problems. However, many Hg data in the NGS are based on
+    reanalyses of archival samples, e.g., NURE samples, that were neither
+    collected using protocols appropriate for Hg analysis, nor stored
+    under conditions that would necessarily preserve the original Hg
+    concentrations. Some NURE samples in the eastern US were very likely
+    contaminated by Hg at some point after collection (e.g., all samples
+    from Allegany County, Maryland). At the present time, it is not known
+    which archival samples may have been contaminated with Hg in the
+    laboratory, and thus extreme caution should be exercised in
+    interpreting NGS data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jeffrey N Grossman
+        Contact_Organization: U.S. Geological Survey, ER
+      Contact_Address:
+        Address_Type: mailing address
+        Address:
+          Mail Stop 954
+          12201 Sunrise Valley Drive
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-6184
+      Contact_Facsimile_Telephone: 703-648-6383
+      Contact_Electronic_Mail_Address: jgrossman@usgs.gov
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://tin.er.usgs.gov/geochem/doc/statusmaps/sample-types.jpg
+    Browse_Graphic_File_Description:
+      The image below shows the area of the United States currently
+      covered by the NGS and for which data are available in this
+      report.  Colors are used to indicate which sample media are
+      represented in different parts of the country.  Note that
+      overlapping symbols may obscure some points.  At present, 88%
+      of the land area of the US has sample coverage.  ~70% of the
+      analyzed samples are stream sediments and the majority of the
+      rest are soils.  976x480 pixels, 202k bytes.
+    Browse_Graphic_File_Type: JPEG
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://tin.er.usgs.gov/geochem/doc/statusmaps/sample-density.jpg
+    Browse_Graphic_File_Description:
+      Density of geochemical sampling in the NGS.  Density is shown both
+      as the number of samples per 1000 km2 (right side of legend) and as
+      the approximate linear spacing between samples had they been
+      collected along a perfect two-dimensional grid (left side of
+      legend).  Hot colors indicate dense sampling and cool colors show
+      areas where sampling is relatively sparse; white areas are not yet
+      covered. Sample density is not uniform across the nation due to the
+      incorporation of many different types of studies into the NGS,
+      although a minimum density of ~1 sample per 289 km2 (dark blue) is
+      maintained in all sampled areas (gray areas on the map, with lower
+      densities, are not yet complete).  969x534 pixels, 243k bytes.
+    Browse_Graphic_File_Type: JPEG
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://tin.er.usgs.gov/geochem/doc/statusmaps/ngs-status-07-07.jpg
+    Browse_Graphic_File_Description:
+      Plans for completing the NGS in the year 2008
+
+      For planning purposes, the nation was divided into ~33,000 cells, each
+      with ~289 sq km area.  These cells are shown in this map, color-coded by
+      the status of sampling within the cell.  Green areas are done.  Pale
+      green cells were missed during initial phases of the NGS and may be
+      filled at some future date.  In dark blue regions, collaborative sampling
+      efforts by the USGS and state government agencies are under way.  Red areas
+      include both cells that will probably not be sampled (e.g., the Nevada Test
+      Site) and cells for which sampling plans have not yet been developed.
+      967x484 pixels, 186k bytes.
+    Browse_Graphic_File_Type: JPEG
+  Data_Set_Credit:
+    Jeffrey N. Grossman:  Principal author of this report; database design
+    and data processing; development of geochemical mapping methods;
+    development of computer methods in support of geochemical sampling.
+
+    Andrew E. Grosz:   Project concept, design, and leadership;
+    development and supervision of sampling protocols and field methods;
+    development of collaborative activities between the USGS and other
+    agencies.
+
+    Peter N. Schweitzer:   Development of data retrieval software; website
+    programming.
+
+    Paul G. Schruben:  GIS support; report generation; sample site maps;
+    sample preparation.
+  Native_Data_Set_Environment:
+    The database files are maintained in-house using Paradox and ArcView
+    software; the web version is stored using MySQL and accessed using
+    PHP.
+  Cross_Reference:
+    Citation_Information:
+      Originator: Grossman, J.N.
+      Publication_Date: 1998
+      Title: National Geochemical Atlas: The geochemical landscape of the conterminous United States derived from stream sediment and other solid sample media analyzed by the National Uranium Resource Evaluation (NURE) program
+      Series_Information:
+        Series_Name: U.S. Geological Survey Open File Report
+        Issue_Identification: 98-622
+  Cross_Reference:
+    Citation_Information:
+      Originator: Gustavsson, N.
+      Originator: Bølviken, B.
+      Originator: Smith, D.B.
+      Originator: Severson, R.C.
+      Publication_Date: 2001
+      Title: Geochemical landscapes of the conterminous United States -- New map presentations for 22 elements
+      Series_Information:
+        Series_Name: U.S. Geological Survey Professional Paper
+        Issue_Identification: 1648
+      Online_Linkage: http://minerals.usgs.gov/news/v2n1/2geochem.html
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The database contains a wide variety of analytical results from
+      methods whose reliability is generally well understood.  The
+      most reliable analytical methods are the following fields:
+
+      > AL_ICP40
+      > CA_ICP40
+      > FE_ICP40
+      > K_ICP40
+      > MG_ICP40
+      > NA_ICP40
+      > P_ICP40
+      > TI_ICP40
+      > BA_ICP40
+      > BE_ICP40
+      > CE_ICP40
+      > CO_ICP40
+      > CR_ICP40
+      > CU_ICP40
+      > EU_ICP40
+      > GA_ICP40
+      > LA_ICP40
+      > LI_ICP40
+      > MN_ICP40
+      > NB_ICP40
+      > ND_ICP40
+      > NI_ICP40
+      > PB_ICP40
+      > SC_ICP40
+      > SR_ICP40
+      > TH_ICP40
+      > V_ICP40
+      > Y_ICP40
+      > YB_ICP40
+      > ZN_ICP40
+      > CS_ICP40
+      > RB_ICP40
+      > SB_ICP40
+      > ZR_ICP40
+      > AS_AA
+      > SE_AA
+      > HG_AA
+      > SB_AA
+      > TE_AA
+      > TL_AA
+      > W_VS
+      > AU_AA
+      > PD_AA
+      > PT_AA
+      > AS_ICP10
+      > AU_ICP10
+      > CD_ICP10
+      > CU_ICP10
+      > MO_ICP10
+      > PB_ICP10
+      > ZN_ICP10
+      > GA_ICP10
+      > HG_ICP10
+      > SE_ICP10
+      > TE_ICP10
+      > TL_ICP10
+      > AL_ICP16
+      > CA_ICP16
+      > FE_ICP16
+      > K_ICP16
+      > MG_ICP16
+      > NA_ICP16
+      > P_ICP16
+      > SI_ICP16
+      > TI_ICP16
+      > BA_ICP16
+      > CR_ICP16
+      > MN_ICP16
+      > NB_ICP16
+      > SR_ICP16
+      > Y_ICP16
+      > ZR_ICP16
+      > NA_INAA
+      > SC_INAA
+      > TI_INAA
+      > CR_INAA
+      > FE_INAA
+      > CO_INAA
+      > NI_INAA
+      > ZN_INAA
+      > AS_INAA
+      > BR_INAA
+      > RB_INAA
+      > SR_INAA
+      > ZR_INAA
+      > SB_INAA
+      > CS_INAA
+      > BA_INAA
+      > LA_INAA
+      > CE_INAA
+      > ND_INAA
+      > SM_INAA
+      > EU_INAA
+      > TB_INAA
+      > YB_INAA
+      > LU_INAA
+      > HF_INAA
+      > TA_INAA
+      > W_INAA
+      > AU_INAA
+      > TH_INAA
+      > U_INAA
+      > U_DN
+      > TH_DN
+      > SIO2_XRF
+      > AL2O3_XRF
+      > FE2O3_XRF
+      > MGO_XRF
+      > CAO_XRF
+      > NA2O_XRF
+      > K2O_XRF
+      > TIO2_XRF
+      > P2O5_XRF
+      > MNO_XRF
+      > LOI925C
+      > TH_NURE
+      > U_NURE
+  Logical_Consistency_Report:
+    The samples and data that compose the NGS come from a wide variety of
+    sources. These sources can be placed in 5 broad categories based on
+    who collected and analyzed the samples. The CATEGORY field of the
+    database is used to store this information. Within each category,
+    records can be broken down into a large number of datasets, each of
+    which contains data on samples collected and analyzed together. The
+    DATASET field of the database stores this information.
+
+    Descriptions of Datasets and Categories in the NGS:
+    http://tin.er.usgs.gov/geochem/doc/groups-cats.htm
+
+    A limited number of analytical methods were used for samples in the
+    NGS in order to provide the maximum level of internal consistency
+    possible to the database.
+
+    For every analytical data field in the NGS, there is an associated
+    field pointing to information about the method used to make the
+    analyses. These fields contain "job numbers," which are names
+    laboratories assigned to batches of samples that were all run
+    together. Multi-element methods (all ICP and neutron activation
+    methods, XRF, PGE analysis, and forms-of-carbon) each have a single
+    field containing job information that is applicable to all analyzed
+    elements. Single-element methods (As, Au, Hg, Sb, Se, Te, Tl, and W)
+    each have their own field containing this information.
+
+    Analytical Methods and Database Fields in the NGS:
+    http://tin.er.usgs.gov/geochem/doc/analysis.htm
+  Completeness_Report:
+    At the present time, the NGS includes data covering about 71%
+    of the land area of the US, including samples in all 50 states.
+
+    Four of the analytical methods are considered to be most important
+    for general coverage of the subject: the ICP 40-element acid
+    dissolution group, and determination of Arsenic, Mercury, and
+    Selenium by hydride-generation atomic absorption.  Data from other
+    analytical methods are provided when available but it was not the
+    principal goal of the study to ensure that these analyses were
+    completed on most samples.  Only about 5% of the samples lack data
+    from the ICP 40-element methods, and 25% to 35% of samples lack
+    data from the primary AA methods (for As, Hg, and Se).
+
+    The following table shows for each database field the number of
+    empty cells and the proportion of the whole database that number
+    represents.
+
+    >    Field name  Missing Percent
+    >Sample identification
+    >         REC_NO       0   0.0
+    >          LABNO       0   0.0
+    >        DATASET       0   0.0
+    >       CATEGORY    2729   3.9
+    >       TYPEDESC       6   0.0
+    >Geographic location
+    >          DATUM   13579  19.3
+    >       LATITUDE    2803   4.0
+    >      LONGITUDE    2803   4.0
+    >     QUAD24CODE    9362  13.3
+    >     QUAD250COD    2782   4.0
+    >     QUAD100COD    2808   4.0
+    >       FIPS_INT    2782   4.0
+    >          HUC_8    2804   4.0
+    >      QD250NAME    2782   4.0
+    >           ZIP3    2806   4.0
+    >       CONGDIST    2806   4.0
+    >Sample characteristics
+    >         FLDNAM       2   0.0
+    >      COLL_DATE       0   0.0
+    >       DESCRIPT    2532   3.6
+    >          STYPE       6   0.0
+    >     SOIL_HORIZ   63183  89.8
+    >          COLOR   36315  51.6
+    >      SMPGRSIZE   59512  84.6
+    >         MEDIUM       6   0.0
+    >         SOURCE    2720   3.9
+    >     SOURCE_MOD   19641  27.9
+    >        UPSIEVE    3540   5.0
+    >          DRIED   11771  16.7
+    >      STYPENOTE   45047  64.0
+    >Site characteristics
+    >        SETTING   60013  85.3
+    >      ACCHANWID   33857  48.1
+    >       WATERDEP   33875  48.1
+    >         WATCOL   45163  64.2
+    >      FLOWSTAGE   21486  30.5
+    >       FLOWRATE   44492  63.2
+    >         STRBED   19804  28.1
+    >      CONTAMSOU   14126  20.1
+    >      CONTAMPOT   58672  83.4
+    >     CONTAMDEGR   68546  97.4
+    >            VEG   16267  23.1
+    >             PH   51554  73.3
+    >Sample characteristics (details)
+    >      GRAINSIZE   46988  66.8
+    >      COLLECTOR   30813  43.8
+    >       PRIME_ID   19976  28.4
+    >         LASLID   55035  78.2
+    >         ORNLID   54452  77.4
+    >          SRLID   45473  64.6
+    >          LLLID   65548  93.2
+    >           SITE   63631  90.4
+    >          XSITE   70336 100.0
+    >          REPLC   25323  36.0
+    >        LABCOND   70351 100.0
+    >          GRABS   40119  57.0
+    >         SAMPHR   49733  70.7
+    >       ORGN_PCT   65007  92.4
+    >          STUDY   70026  99.5
+    >           ODOR   64856  92.2
+    >Site characteristics (details)
+    >         PHOTOS   66893  95.1
+    >      FLDPLNWID   64933  92.3
+    >         RELIEF   18458  26.2
+    >      FORMATION   48761  69.3
+    >       SGEOUNIT   51700  73.5
+    >            ALK   59919  85.2
+    >         O_DISS   67280  95.6
+    >           SCIN   45205  64.2
+    >        AIRTEMP   49965  71.0
+    >        WTRTEMP   51416  73.1
+    >           COND   51352  73.0
+    >        STRFLOW   65019  92.4
+    >       STR_CHAN   49211  69.9
+    >          WEATH   38168  54.2
+    >       VEG_DENS   24891  35.4
+    >      ROCK_TYPE   42150  59.9
+    >       ROCK_COL   58434  83.0
+    >Analyses by ICP/Acid dissolution
+    >      ICP40_JOB    3540   5.0
+    >       AL_ICP40    3563   5.1
+    >       CA_ICP40    3563   5.1
+    >       FE_ICP40    3563   5.1
+    >        K_ICP40    3563   5.1
+    >       MG_ICP40    3575   5.1
+    >       NA_ICP40    3563   5.1
+    >        P_ICP40    3607   5.1
+    >       TI_ICP40    3563   5.1
+    >       AG_ICP40    3563   5.1
+    >       AS_ICP40    3797   5.4
+    >       AU_ICP40    3797   5.4
+    >       BA_ICP40    3571   5.1
+    >       BE_ICP40    3563   5.1
+    >       BI_ICP40    4729   6.7
+    >       CD_ICP40    3563   5.1
+    >       CE_ICP40    3563   5.1
+    >       CO_ICP40    3563   5.1
+    >       CR_ICP40    3563   5.1
+    >       CU_ICP40    3563   5.1
+    >       EU_ICP40    7287  10.4
+    >       GA_ICP40    3563   5.1
+    >       HO_ICP40    8441  12.0
+    >       LA_ICP40    3563   5.1
+    >       LI_ICP40    3563   5.1
+    >       MN_ICP40    3581   5.1
+    >       MO_ICP40    3563   5.1
+    >       NB_ICP40    3823   5.4
+    >       ND_ICP40    7275  10.3
+    >       NI_ICP40    3563   5.1
+    >       PB_ICP40    3563   5.1
+    >       SC_ICP40    3563   5.1
+    >       SN_ICP40    4729   6.7
+    >       SR_ICP40    3576   5.1
+    >       TA_ICP40    8441  12.0
+    >       TH_ICP40    3563   5.1
+    >        U_ICP40    4729   6.7
+    >        V_ICP40    3563   5.1
+    >        Y_ICP40    3563   5.1
+    >       YB_ICP40    7275  10.3
+    >       ZN_ICP40    3565   5.1
+    >       CS_ICP40   66653  94.7
+    >       RB_ICP40   66653  94.7
+    >       SB_ICP40   66653  94.7
+    >       ZR_ICP40   66653  94.7
+    >Analyses by AA
+    >         AS_JOB   16009  22.8
+    >          AS_AA   16009  22.8
+    >         SE_JOB   22236  31.6
+    >          SE_AA   22236  31.6
+    >         HG_JOB   21206  30.1
+    >          HG_AA   21206  30.1
+    >         SB_JOB   67852  96.4
+    >          SB_AA   67852  96.4
+    >         TE_JOB   69195  98.3
+    >          TE_AA   69195  98.3
+    >         TL_JOB   68415  97.2
+    >          TL_AA   68415  97.2
+    >          W_JOB   69061  98.1
+    >           W_VS   69061  98.1
+    >         AU_JOB   45579  64.8
+    >          AU_AA   45579  64.8
+    >       PDPT_JOB   63301  90.0
+    >          PD_AA   63301  90.0
+    >          PT_AA   64701  92.0
+    >Analyses by ICP Partial Chem
+    >      ICP10_JOB   55996  79.6
+    >       AG_ICP10   55996  79.6
+    >       AS_ICP10   55996  79.6
+    >       AU_ICP10   59622  84.7
+    >       BI_ICP10   55996  79.6
+    >       CD_ICP10   55996  79.6
+    >       CU_ICP10   56001  79.6
+    >       MO_ICP10   55996  79.6
+    >       PB_ICP10   55996  79.6
+    >       SB_ICP10   55996  79.6
+    >       ZN_ICP10   56000  79.6
+    >       GA_ICP10   66737  94.8
+    >       HG_ICP10   67058  95.3
+    >       SE_ICP10   67510  95.9
+    >       TE_ICP10   66737  94.8
+    >       TL_ICP10   66737  94.8
+    >Analyses by Fusion ICP
+    >      ICP16_JOB   68464  97.3
+    >       AL_ICP16   68464  97.3
+    >       CA_ICP16   68464  97.3
+    >       FE_ICP16   68464  97.3
+    >        K_ICP16   68464  97.3
+    >       MG_ICP16   68464  97.3
+    >       NA_ICP16   68464  97.3
+    >        P_ICP16   68464  97.3
+    >       SI_ICP16   68688  97.6
+    >       TI_ICP16   68464  97.3
+    >       BA_ICP16   68464  97.3
+    >       CR_ICP16   68464  97.3
+    >       MN_ICP16   68464  97.3
+    >       NB_ICP16   68464  97.3
+    >       SR_ICP16   68464  97.3
+    >        Y_ICP16   68464  97.3
+    >       ZR_ICP16   68464  97.3
+    >Analyses by NAA
+    >     INAAJOB_US   64649  91.9
+    >     INAAJOB_BE   61829  87.9
+    >        NA_INAA   57519  81.7
+    >        SC_INAA   57487  81.7
+    >        TI_INAA   61963  88.1
+    >        CR_INAA   57493  81.7
+    >        FE_INAA   57507  81.7
+    >        CO_INAA   57487  81.7
+    >        NI_INAA   57566  81.8
+    >        ZN_INAA   58474  83.1
+    >        AS_INAA   57533  81.8
+    >        BR_INAA   61833  87.9
+    >        RB_INAA   57588  81.8
+    >        SR_INAA   65165  92.6
+    >        ZR_INAA   57500  81.7
+    >        MO_INAA   61833  87.9
+    >        SB_INAA   57559  81.8
+    >        CS_INAA   57518  81.7
+    >        BA_INAA   57536  81.8
+    >        LA_INAA   57488  81.7
+    >        CE_INAA   57487  81.7
+    >        ND_INAA   57493  81.7
+    >        SM_INAA   57488  81.7
+    >        EU_INAA   57487  81.7
+    >        TB_INAA   57489  81.7
+    >        YB_INAA   57489  81.7
+    >        LU_INAA   57491  81.7
+    >        HF_INAA   57489  81.7
+    >        TA_INAA   57488  81.7
+    >         W_INAA   57696  82.0
+    >        AU_INAA   57537  81.8
+    >        TH_INAA   57487  81.7
+    >         U_INAA   57487  81.7
+    >         DN_JOB   69766  99.2
+    >           U_DN   69766  99.2
+    >          TH_DN   69766  99.2
+    >Analyses by XRF
+    >        XRF_JOB   66795  94.9
+    >       SIO2_XRF   66798  94.9
+    >       L2O3_XRF   66795  94.9
+    >      FE2O3_XRF   66796  94.9
+    >        MGO_XRF   66795  94.9
+    >        CAO_XRF   66795  94.9
+    >       NA2O_XRF   66795  94.9
+    >        K2O_XRF   66795  94.9
+    >       TIO2_XRF   66797  94.9
+    >       P2O5_XRF   66796  94.9
+    >        MNO_XRF   66795  94.9
+    >        LOI925C   66795  94.9
+    >Analyses for light elements
+    >        C_S_JOB   69416  98.7
+    >          C_TOT   69416  98.7
+    >          C_ORG   69841  99.3
+    >          C_CO3   69792  99.2
+    >          S_TOT   69782  99.2
+    >Analyses by NURE program
+    >        AL_NURE   26857  38.2
+    >        CA_NURE   38881  55.3
+    >        FE_NURE   26462  37.6
+    >         K_NURE   36952  52.5
+    >        MG_NURE   36938  52.5
+    >        NA_NURE   26806  38.1
+    >        AG_NURE   35790  50.9
+    >        AS_NURE   54102  76.9
+    >        AU_NURE   40720  57.9
+    >         B_NURE   54459  77.4
+    >        BA_NURE   36587  52.0
+    >        BE_NURE   41728  59.3
+    >        BI_NURE   59027  83.9
+    >        BR_NURE   70304  99.9
+    >        CD_NURE   59027  83.9
+    >        CE_NURE   27641  39.3
+    >        CL_NURE   58971  83.8
+    >        CO_NURE   36384  51.7
+    >        CR_NURE   36288  51.6
+    >        CS_NURE   58954  83.8
+    >        CU_NURE   35896  51.0
+    >        DY_NURE   44479  63.2
+    >        EU_NURE   42409  60.3
+    >         F_NURE   70229  99.8
+    >        HF_NURE   30650  43.6
+    >        HG_NURE   70294  99.9
+    >        LA_NURE   31508  44.8
+    >        LI_NURE   41087  58.4
+    >        LU_NURE   43320  61.6
+    >        MN_NURE   26030  37.0
+    >        MO_NURE   47168  67.0
+    >        NB_NURE   36001  51.2
+    >        NI_NURE   35849  50.9
+    >         P_NURE   47185  67.1
+    >        PB_NURE   39617  56.3
+    >        PT_NURE   69372  98.6
+    >        RB_NURE   58955  83.8
+    >        SB_NURE   58955  83.8
+    >        SC_NURE   25602  36.4
+    >        SE_NURE   54405  77.3
+    >        SM_NURE   41562  59.1
+    >        SN_NURE   51643  73.4
+    >        SR_NURE   39715  56.4
+    >        TA_NURE   59059  83.9
+    >        TB_NURE   59736  84.9
+    >        TH_NURE   25845  36.7
+    >        TI_NURE   27042  38.4
+    >         V_NURE   25946  36.9
+    >         W_NURE   51609  73.3
+    >         Y_NURE   47735  67.8
+    >        YB_NURE   45068  64.1
+    >        ZN_NURE   35890  51.0
+    >        ZR_NURE   48695  69.2
+    >         U_NURE   25751  36.6
+    >Processing information
+    >         LABNO2   59440  84.5
+    >     PREV_LABNO   68420  97.2
+    >      FLDNAM_AN      18   0.0
+    >       AOV_CODE   65468  93.0
+    >      REPLICATE   65468  93.0
+    >      LOC_COUNT    2801   4.0
+    >     ANAL_NOTES   69685  99.0
+    >      NURE_METH   24730  35.1
+
+
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The accuracy of geographic sample locations depends on the
+        procedures used by the original sampling program.  Some
+        general statements can be made, however.
+
+        NGS Samples: For samples collected by the NGS (SW-ALASKA and State
+        datasets) all coordinates were measured by handheld global
+        positioning systems (GPS). Data were recorded in a variety of
+        formats (decimal degrees, degrees plus decimal minutes,
+        degrees-minutes-seconds, and UTM coordinates), and all were
+        translated into decimal degrees.
+
+        NURE samples: The coordinates of NURE samples (in all NURE
+        datasets) , measured in the pre-GPS era, were digitized from field
+        maps; a discussion of these methods and what datum was used may be
+        found here.
+
+        Other samples: The coordinates of all other samples (PLUTO and
+        RASS datasets) were determined by unknown methods, unless
+        specifically discussed in any primary publications on these
+        datasets. Because most were collected in the pre-GPS era, most
+        were probably digitized or otherwise read from field maps used
+        during collection. It is likely that the NAD27 datum and Clarke
+        1866 ellipsoid were used on most such maps, but this is not known
+        with confidence.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Smith, Steven M.
+          Publication_Date: 1997
+          Title: Reformatted data from the National Uranium Resource Evaluation (NURE) Hydrogeochemical and Stream Sediment Reconnaissance (HSSR) Program
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 97-492
+          Online_Linkage: http://pubs.usgs.gov/of/1997/ofr-97-0492/
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1975
+            Ending_Date: 1980
+        Source_Currentness_Reference: Sample collection period
+      Source_Citation_Abbreviation: NURE-HSSR
+      Source_Contribution: Samples collected between 1975 and 1980 as part of the National Uranium Resource Evaluation (NURE) program.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Goldhaber, Martin B.
+          Originator: Irwin, Elise
+          Originator: Atkins, Brian
+          Originator: Lee, Lopaka
+          Originator: Black, Dee Dee
+          Originator: Zappia, Humbert
+          Originator: Hatch, Joe
+          Originator: Pashin, Jack
+          Originator: Barwick, Larry H.
+          Originator: Cartwright, Walter E.
+          Originator: Sanzolone, Rick
+          Originator: Ruppert, Leslie
+          Originator: Kolker, Allan
+          Originator: Finkelman, Robert
+          Publication_Date: 2001
+          Title: Arsenic in Stream Sediments of Northern Alabama
+          Series_Information:
+            Series_Name: U.S. Geological Survey Miscellaneous Field Studies Map
+            Issue_Identification: MF-2357
+          Online_Linkage: http://pubs.usgs.gov/mf/2001/mf-2357/
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Reanalysis of samples
+      Source_Citation_Abbreviation: Goldhaber and others (2001)
+      Source_Contribution:
+        Data identified in the database where DATASET='NURE Alabama II'
+
+        A suite of 1690 samples from northern Alabama (excluding the northeast corner), was pulled from the NURE archive and analyzed in 1998 for a project by M. Goldhaber (Goldhaber and others, 2001). Most were analyzed by the ICP40 and As methods only.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Cannon, W.F.
+          Originator: Woodruff, L.G.
+          Originator: Pimley, Shana
+          Publication_Date: 2003
+          Title: Some statistical relationships between stream sediment and soil geochemistry in northwestern Wisconsin--can stream sediment compositions be used to predict compositions of soils in glaciated terranes?
+          Series_Information:
+            Series_Name: Journal of Geochemical Exploration
+            Issue_Identification: v. 81
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Reanalysis of samples
+      Source_Citation_Abbreviation: Cannon and others (2003)
+      Source_Contribution: A suite of 400 samples from the Ashland and Rice Lake 1x2 degree quadrangles in northern Wisconsin, pulled from the NURE archive and analyzed in 1998 for a project by W. Cannon (Cannon and others, 2003). All were analyzed by the ICP40 and As methods, and ~1/4 were also analyzed for Hg.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Folger, H.W.
+          Publication_Date: 2000
+          Title: Analytical results and sample locations of reanalyzed NURE stream-sediment and soil samples for the Humboldt River Basin mineral-environmental resource assessment, northern Nevada
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 00-421
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Reanalysis of samples
+      Source_Citation_Abbreviation: Folger (2000)
+      Source_Contribution: A large number of samples reanalyzed from the NURE collection.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Tuttle, Michele L.W.
+          Originator: Goldhaber, Martin B.
+          Originator: Ruppert, Leslie F.
+          Originator: Hower, James C.
+          Publication_Date: 2002
+          Title: Arsenic in rocks and stream sediments of the central Appalachian Basin, Kentucky
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 02-28
+          Online_Linkage: http://pubs.usgs.gov/of/2002/ofr-02-0028/
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: Reanalysis of samples
+      Source_Citation_Abbreviation: Tuttle and others (2002)
+      Source_Contribution: A suite of 1280 samples from eastern Kentucky was pulled from the NURE archive and analyzed in 2000 for a project by M. Goldhaber and M. Tuttle (see Tuttle and others, 2002). All were analyzed by the ICP40 and As methods, and ~1/8 were also analyzed by the Hg and Se atomic absorption methods.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: King, H.D.
+          Originator: Fey D.L.
+          Originator: Motooka, J.M.
+          Originator: Knight, R.J.
+          Originator: Roushey B.H.
+          Originator: McGuire, D.J.
+          Publication_Date: 1996
+          Title: Analytical data and sample locality map of stream-sediment and soil samples from the Winnemucca-Surprise Resource Assessment Area, northwest Nevada and northeast California
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 96-62-B
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1996
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: King and others (1996)
+      Source_Contribution: Part of a large number of NURE samples reanalyzed by USGS.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kilburn, J.E.
+          Originator: Smith, D.B.
+          Originator: Hopkins, R.T.
+          Publication_Date: 1990
+          Title: Analytical results and sample locality map of stream sediment samples from the Reno 1 degree x 2 degree quadrangle, California and Nevada
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 90-204
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1985
+            Ending_Date: 1986
+        Source_Currentness_Reference: Reanalysis of samples
+      Source_Citation_Abbreviation: Kilburn and others (1990)
+      Source_Contribution: A group of 809 samples from the Reno quadrangle in west-central Nevada was pulled from the NURE archive and analyzed for Hg, Au, W, and other trace elements in 1985-1986 (Kilburn and others, 1990). No ICP analyses were done on the samples. Analytical data for the samples was extracted from the RASS component of the National Geochemical Database (Carl Abston, written comm. 2000).
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Baedecker, Phillip A.
+          Originator: Grossman, Jeffrey N.
+          Originator: Buttleman, Kim P.
+          Publication_Date: 1998
+          Title: National Geochemical Database: PLUTO geochemical database for the United States
+          Series_Information:
+            Series_Name: U.S. Geological Survey Digital Data Series
+            Issue_Identification: DDS-47
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: PLUTO
+      Source_Contribution: The PLUTO database contains the results of analyses of geological material done by the Branch of Analytical Laboratories (and its successors and predecessors at the USGS) between the late 1960's and mid 1990's. PLUTO is one component of the National Geochemical Database at the USGS.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Colman, John A.
+          Originator: Sanzolone, Richard F.
+          Publication_Date: 1990
+          Title: Surface-water quality assessment of the upper Illinois River basin in Illinois, Indiana, and Wisconsin; geochemical data for fine-fraction streambed sediment from high- and low-order streams, 1987
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 90-571
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1990
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Colman and Sanzolone (1990)
+      Source_Contribution: A series of stream sediments from the upper Illinois River basin was collected in the late 1980's, and most were analyzed by the ICP40, As, Se, and Hg methods.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Colman, John A.
+          Originator: Sanzolone, Richard F.
+          Publication_Date: 1992
+          Title: Geochemical characterization of streambed sediment in the upper Illinois River basin
+          Series_Information:
+            Series_Name: U.S. Geological Survey Water Resources Bulletin
+            Issue_Identification: v. 28, no. 5
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1992
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Colman and Sanzolone (1992)
+      Source_Contribution: A series of stream sediments from the upper Illinois River basin was collected in the late 1980's, and most were analyzed by the ICP40, As, Se, and Hg methods.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sanzolone, Richard F.
+          Originator: Ryder, Jean L.
+          Publication_Date: 1989
+          Title: Quality assessment program and results for the NAWQA surface water pilot studies
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 89-658
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1989
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Sanzolone and Ryder (1989)
+      Source_Contribution: A series of stream sediments from the upper Illinois River basin was collected in the late 1980's, and most were analyzed by the ICP40, As, Se, and Hg methods.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wilson, S.A.
+          Originator: Kennedy, K.R.
+          Originator: Gent, C.A.
+          Originator: Briggs, P.H.
+          Originator: Tidball, R.R.
+          Originator: McNeal, J.M.
+          Publication_Date: 1990
+          Title: Analysis of soil samples from the San Joaquin Valley of California
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 90-214
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1990
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Wilson and others (1990)
+      Source_Contribution: In the early 1980's, the USGS collected a large suite of stream sediment samples on a 10x10 km grid across the entire southern half of California (the "CALMAP" project). In the San Joaquin Valley, soils were collected due to the absence of suitable streams, with most of the sampling being done in 1983. This dataset comprises analyses of these soils from 1985, done by Wilson and others (1990), using the ICP40, As, Se, and Hg methods.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bailey, Eizabeth A.
+          Originator: Smith, David B.
+          Originator: Abston, Carl C.
+          Originator: Granitto, Matthew
+          Originator: Burleigh, Kuuipo A.
+          Publication_Date: 1999
+          Title: National Geochemical Database: U.S. Geological Survey RASS (Rock Analysis Storage System) geochemical data for Alaska
+          Series_Information:
+            Series_Name: U.S. Geological Survey Open-File Report
+            Issue_Identification: 99-433
+          Online_Linkage: http://pubs.usgs.gov/of/1999/of99-433/
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1999
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: RASS Alaska
+      Source_Contribution: A diverse group of 677 stream sediment samples from across Alaska, with many from the Alaska Peninsula, were extracted from the RASS sample archive at the Denver Federal Center for reanalysis. These samples were originally submitted for analysis by 35 different USGS scientists during the period 1967-1992; original publications for these samples are unknown to the authors of the present report. Original analyses, many of which are by semiquantitative methods, may be found in the RASS component of the National Geochemical Database, but are not included in this database. All were reanalyzed by the ICP40, As, Se, and Hg methods in 2001 as part of the National Geochemical Survey project, to fill in areas of Alaska not covered by NURE samples. In addition, several quadrangles in north-central Alaska (Survey Pass, Wiseman, and Chandalar) were included in order to duplicate areas covered by the NURE program.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Thompson D.E.
+          Originator: Grosz A.E.
+          Originator: McNeal J.M.
+          Originator: Grossman J.N.
+          Publication_Date: 1998
+          Title: Surface geochemistry of Mississippi to be surveyed
+          Series_Information:
+            Series_Name: Mississippi Geology
+            Issue_Identification: v. 19, no. 2
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Sample collection year
+      Source_Citation_Abbreviation: Thompson and others (1998)
+      Source_Contribution: A suite of 1421 stream sediments and soils was collected as part of a joint USGS-Mississippi Geological Survey project (Thompson and others, 1998, 2002). Samples were collected in 1998, covering the entire state. Most Mississippi samples were analyzed by the ICP40, ICP10, As, Se, Hg, and INAA methods, and ~half were also analyzed by XRF.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Thompson D.E.
+          Originator: Grosz A.E.
+          Originator: Schruben P.G.
+          Originator: Grossman J.N.
+          Publication_Date: 2002
+          Title: Solid-phase geochemical survey of the State of Mississippi; on the nature and distribution of As, Se, Hg, Cu, Pb, and Zn in stream sediments and soils [abstract]
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Curry, K.J. (editor)
+              Publication_Date: 2002
+              Title: Mississippi Academy of Sciences Sixty-Sixth Annual Meeting
+              Series_Information:
+                Series_Name: Journal of the Mississippi Academy of Sciences
+                Issue_Identification: v. 47, no. 1
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Sample collection year
+      Source_Citation_Abbreviation: Thompson and others (2002)
+      Source_Contribution: A suite of 1421 stream sediments and soils was collected as part of a joint USGS-Mississippi Geological Survey project (Thompson and others, 1998, 2002). Samples were collected in 1998, covering the entire state. Most Mississippi samples were analyzed by the ICP40, ICP10, As, Se, Hg, and INAA methods, and ~half were also analyzed by XRF.
+
+    Process_Step:
+      Process_Description:
+        Prior sample collection programs
+
+        Sampling has been carried out over several decades in a variety of
+        field programs run by numerous Federal and state agencies.  Groups
+        of samples collected by the same agency or research program are
+        referred to in the documentation as separate "datasets", meaning
+        the samples will have a common value for the fields CATEGORY and
+        DATASET.  The CATEGORY field indicates the general type of
+        research program collecting the samples, while the DATASET field
+        identifies the specific project, state government, or investigator
+        in whose effort the samples were collected.  These are described
+        more fully in http://tin.er.usgs.gov/geochem/doc/groups-cats.htm
+      Process_Date: 1967 - 2002
+    Process_Step:
+      Process_Description:
+        National Geochemical Survey project
+
+        By 1998-1999, it had become clear within the USGS Mineral
+        Resources Prgram that there would be great benefits to combining
+        earlier efforts in the southeastern states with other regional
+        geochemical assessments being conducted by the program in the
+        western US, and expanding to a national scale.  A new national
+        effort comprising four interlinked regional "Surveys and Analysis"
+        projects was begun, including a task to undertake a National
+        Geochemical Survey (NGS). A complete national geochemical coverage
+        was sought, using an internally consistent set of analytical
+        methods and principally based on stream sediments.  The minimum
+        sample density was planned to be 1 sample per 289 km2 in all land
+        areas of the country (i. e., based on a 17x17 km sampling grid).
+        Analytical methods were chosen to include a 40-element ICP package
+        plus single-element determinations of As, Se, and Hg by atomic
+        absorption for every sample.
+      Process_Date: 1999
+    Process_Step:
+      Process_Description:
+        Field parties from 7 states collected samples in 2001-2003, and
+        all were analyzed together, in random order, in 2004-2005. (a) 190
+        samples were collected in southwest Alaska by USGS geologists, in
+        an area not covered previously by the USGS or NURE programs; (b)
+        14 samples were collected by A. Grosz and D. Bickerstaff (USGS) in
+        Hawai`i, covering the islands of Hawai`i, O`ahu, Maui, Kaua`i,
+        Moloka`i, and Lana`i; (c) 423 samples were collected across
+        Illinois as part of a joint USGS-Illinois Geological Survey
+        project; some of these samples were also analyzed above in the
+        States 2002 dataset; (d) 250 samples were collected across Indiana
+        as part of a joint USGS-Indiana Geological Survey project; some of
+        these samples were also analyzed above in the States 2002 dataset;
+        (e) 2 samples were collected in central South Dakota by a joint
+        USGS,  North Dakota Geological Survey, and  South Dakota
+        Geological Survey team as part of a field orientation study; (f)
+        654 soil samples were collected in North Dakota by the  North
+        Dakota Geological Survey as part of a statewide study; (g) 1095
+        soil samples were collected in Iowa by the Iowa Geological Survey
+        as part of a statewide study; All samples were analyzed by the
+        ICP40, As, Se, and Hg methods, as well as by a fire-assay method
+        for Au, Pd, and Pt.  Index map showing distribution of these samples:
+        http://tin.er.usgs.gov/geochem/doc/indexmaps/states-2003.jpg
+      Process_Date: 20050930
+      Source_Produced_Citation_Abbreviation: States 2003
+    Process_Step:
+      Process_Description:
+        Field parties from 13 states collected samples in 2003-2004, and
+        all were analyzed together, in random order, in 2005. (a) 56
+        samples were collected on Kodiak Island, Alaska, by USGS
+        geologists, in an area not covered previously by the USGS or NURE
+        programs; (b) 362 samples were collected across Arkansas as part of
+        a joint USGS, Arkansas Geological Commission study; (c) 186 samples
+        were collected across northern California as part of a joint USGS,
+        California Geological Survey project; (d) 38 samples were collected
+        in an area of northern Kentucky not covered by the NURE program as
+        part of a joint USGS,  Kentucky Geological Survey study; (e) 57
+        samples were collected in an area of northern Maine not covered by
+        the NURE program as part of a joint USGS,  Maine Geological Survey
+        study; (f) 379 samples were collected across Minnesota as part of a
+        joint USGS,  Minnesota Geological Survey study; (g) 780 soil
+        samples were collected in North Dakota by the  North Dakota
+        Geological Survey as part of a statewide study (see the States 2003
+        dataset); (h) 581 samples were collected across Ohio as part of a
+        joint USGS,  Ohio Geological Survey study; (i) 125 samples were
+        collected across Oregon as part of a joint USGS,  Oregon Department
+        of Geology and Mineral Industries study; (j) 125 samples were
+        collected in western Pennsylvania as part of a joint USGS,
+        Pennsylvania Geological Survey study; (k) 42 samples were collected
+        in central Texas as part of a joint USGS,  Texas Bureau of Economic
+        Geology study; (l) 782 samples were collected across Washington
+        State as part of a joint USGS,  Washington DNR Division of
+        Geology & Earth Resources study; (m) 260 samples were collected
+        across Wisconsin as part of a joint USGS,  Wisconsis Geological &
+        Natural History Survey study. All samples were analyzed by the
+        ICP40, As, Se, and Hg methods, as well as by a fire-assay method
+        for Au, Pd, and Pt.
+      Process_Date: 20060221
+      Source_Produced_Citation_Abbreviation: States 2004
+    Process_Step:
+      Process_Description:
+        Field parties from 8 states collected samples in 2003-2005, and all were analyzed together, in random order, in 2006.
+        (a) 599 samples (533 soils and 66 sediments) were collected across northern California as part of a joint USGS, California Geological Survey project;
+        (b) 33 samples left over from the States 2002 and 2003 datasets (above), collected across Indiana as part of a joint USGS-Indiana Geological Survey project, were analyzed;
+        (c) 170 samples (126 soils and 44 stream sediments) were collected from Kansas as part of a joint USGS, Kansas Geological Survey project;
+        (d) 242 stream sediment samples were collected across Missouri and part of a joint USGS, Missouri Dept. Natural Resources study;
+        (e) 294 soil samples were collected in North Dakota by the North Dakota Geological Survey as part of a statewide study (see the States 2003 and 2004 datasets);
+        (f) 65 stream sediment samples were collected in western New York by a USGS team;
+        (g) 446 samples (half soils, half stream sediments) were collected across Oregon as part of a joint USGS, Oregon Department of Geology and Mineral Industries study;
+        (h) 360 samples (309 soils, 51 stream sediments) were collected in central Texas as part of a joint USGS, Texas Bureau of Economic Geology study;
+        All samples were analyzed by the ICP40, As, Se, and Hg methods, as well as by a fire-assay method for Au, Pd, and Pt.
+      Source_Produced_Citation_Abbreviation: States 2005
+    Process_Step:
+      Process_Description:
+        Field parties from 16 states collected samples between 2001 and 2006, and all were analyzed together, in random order, in 2006.
+        (a) 88 samples (85 soils, 3 stream sediments) were collected across Arkansas as part of a joint USGS, Arkansas Geological Commission study;
+        (b) 59 soil samples were collected from wetlands in Iowa by the Iowa Geological Survey;
+        (c) 7 samples left over from the States 2002 and 2003 datasets (above) from Illinois were analyzed;
+        (d) 88 samples (half soils and half stream sediments) were collected from Kansas as part of a joint USGS, Kansas Geological Survey project;
+        (e) 1 stream sediment from Maine was analyzed, beginning a joint USGS, Maine Geological Survey project;
+        (f) 583 samples (all but 2 are soils) were collected across Minnesota as part of a joint USGS, Minnesota Geological Survey study;
+        (g) 309 stream sediment samples were collected across Missouri and part of a joint USGS, Missouri Dept. Natural Resources study;
+        (h) 11 soil samples were collected in North Dakota by the North Dakota Geological Survey as part of a statewide study (see the States 2003 and 2004 datasets);
+        (i) 80 soils and 5 stream sediments were collected in Nebraska as part of a joint USGS-State of Nebraska project;
+        (j) 24 stream sediment and soil samples were collected in Long Island, New York by a USGS team;
+        (k) 35 soils plus 1 stream sediment were collected in Ohio as part of a joint USGS, Ohio DNR study;
+        (l) 308 samples (76 soils, 308 stream sediments) were collected across Oregon as part of a joint USGS, Oregon Department of Geology and Mineral Industries study;
+        (m) 78 stream sediments were collected in Pennsylvania as part of a joint USGS, Penn. Geological Survey study;
+        (n) 38 soils and stream sediments were collected in Tennessee as part of a joint USGS, Tenn. Division of Geology study;
+        (o) 22 samples were collected across Washington State as part of a joint USGS, Washington DNR Division of Geology & Earth Resources study;
+        (p) 3 samples were collected from  Wisconsin, completing a joint USGS, Wisconsis Geological & Natural History Survey study (see States 2004);
+        All samples were analyzed by the ICP40, As, Se, and Hg methods, as well as by a fire-assay method for Au, Pd, and Pt.
+      Source_Produced_Citation_Abbreviation: States 2006a
+    Process_Step:
+      Process_Description:
+        Field parties from 16 states collected samples between 2001 and 2006, and all were analyzed together, in random order, in 2006.
+        (a) 42 samples (39 soils, 3 stream sediments) were collected across Arkansas as part of a joint USGS, Arkansas Geological Commission study;
+        (b) 20 samples (17 soils and 3 sediments) were collected across northern California as part of a joint USGS, California Geological Survey project;
+        (c) 351 samples (312 soils and 39 stream sediments) were collected from Kansas as part of a joint USGS, Kansas Geological Survey project;
+        (d) 76 samples were collected in an area of northern Kentucky not covered by the NURE program as part of a joint USGS, Kentucky Geological Survey study;
+        (e) 165 stream sediments from northern Maine were analyzed, completing a joint USGS, Maine Geological Survey project;
+        (f) 230 samples (all but 3 are soils) were collected across Minnesota, mostly completing a joint USGS, Minnesota Geological Survey study;
+        (g) 24 stream sediment samples were collected across Missouri and part of a joint USGS, Missouri Dept. Natural Resources study, were analyzed;
+        (h) 10 remaining soil samples collected in North Dakota by the North Dakota Geological Survey as part of a statewide study (see the States 2003 and 2004 datasets);
+        (i) 95 soils and 1 stream sediment were collected in Nebraska as part of a joint USGS-State of Nebraska project;
+        (j) 49 samples (9 soils, 40 stream sediments) were collected across Oregon as part of a joint USGS, Oregon Department of Geology and Mineral Industries study;
+        (k) 30 samples (29 soils, 1 stream sediment) were collected in central Texas as part of a joint USGS, Texas Bureau of Economic Geology study;
+        (l) 18 soil samples were collected across Washington State as part of a joint USGS, Washington DNR Division of Geology &amp; Earth Resources study;
+        (m) 1 stream sediment sample was collected from  Wisconsin, completing a joint USGS, Wisconsis Geological &amp; Natural History Survey study (see States 2004);
+        All samples were analyzed by the ICP40, As, Se, and Hg methods, as well as by a fire-assay method for Au, Pd, and Pt.
+      Source_Produced_Citation_Abbreviation: States 2006b
+    Process_Step:
+      Process_Description: Coordinates corrected for samples with labno C-277186 and C-277197 by Jeff Grossman
+      Process_Date: 20080225
+    Process_Step:
+      Process_Description:
+        Field parties in 9 states plus Guam, the Northern Marianas
+        Islands, and the Federated States of Micronesia collected samples
+        between 2004 and 2007, and all were analyzed together, in random
+        order, in 2008. (a) 19 sediment and soil samples were collected in
+        the Bristol Bay area, Alaska, by USGS geologists; (b) 36 soil
+        samples were collected in southern Louisiana by USGS geologists;
+        (c) 269 samples of glacial till were collected across Minnesota,
+        with a few in adjacent parts of Manitoba and Ontario, Canada, as
+        part of a joint USGS, Minnesota Geological Survey study; (d) 239
+        soils and 3 stream sediment samples were collected in Nebraska as
+        part of a joint USGS-State of Nebraska project; (e) 159 soils plus
+        8 stream sediment samples were collected in Ohio as part of a
+        joint USGS, Ohio DNR study; (f) 213 soils plus 14 stream sediments
+        were collected in Pennsylvania as part of a joint USGS, Penn.
+        Geological Survey study; (g) 584 soils samples were collected in
+        South Dakota as part of a joint USGS-South Dakota Geological
+        Survey project; (h) 6 soils and 119 stream sediments were
+        collected in Tennessee as part of a joint USGS, Tenn. Division of
+        Geology study; (i) 28 soils and 33 stream sediments were collected
+        in northeastern Utah by a team of USGS geologists; (j) 59 samples,
+        mostly soils, were collected by USGS geologists on Pacific
+        islands: 46 were from the territory of Guam; 4 were from Saipan, 3
+        from Tinian, and 3 from Rota in the Northern Marianas Islands; 4
+        were from Pohnpei in the Federated States of Micronesia. 
+      Process_Date: 200809
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Point
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 75423
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Geographic_Coordinate_Units: decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      The database contains 284 different attributes in a single table.
+      These are documented in detail on the web site.  The following
+      list shows, by general category, the attribute labels, type, width
+      and precision, and a short description of the field.
+
+      > Basic sample info
+      >         REC_NO  Text     10    NURE record ID or USGS record ID code
+      >          LABNO  Text     19    Unique laboratory name for analyzed sample
+      >        DATASET  Text     26    Description of group of samples of which this one is a member
+      >       CATEGORY  Text     20    General type of sample to which the sample-set belongs
+      >       TYPEDESC  Text     12    Abbreviated description of sample type: stream/pond/spring/soil/etc
+      >
+      > Geographic information
+      >          DATUM  Text      7    Datum of the geographic coordinates
+      >       LATITUDE  Real     20.5  Latitude in decimal degrees
+      >      LONGITUDE  Real     20.5  Longitude in decimal degrees (negative = West)
+      >     QUAD24CODE  Text     10    Code for the USGS 1:24,000 (7.5 minute) quadrangle in which sample is located
+      >     QUAD250COD  Text      5    Code for the USGS 1:250,000 (1x2-degree) quadrangle in which sample is located
+      >     QUAD100COD  Text      7    Code for the USGS 1:100,000 (1:62,500 in Alaska) quadrangle in which sample is located
+      >       FIPS_INT  Integer   5    FIPS of county calculated from geographic coordinates
+      >          HUC_8  Text      8    8-digit hydrologic unit code calculated from geographic coordinates
+      >      QD250NAME  Text     50    Name of USGS 1:250,000 (1x2-degree) quadrangle in which sample is located
+      >
+      > Sample attributes
+      >         FLDNAM  Text     19    Field name of sample, possibly corrected after laboratory analysis.
+      >      COLL_DATE  Date      8    Day on which the sample was collected in the field
+      >       DESCRIPT  Text    220    Sample description and field notes
+      >          STYPE  Integer   4    3-digit code for the sample medium and collection protocol
+      >     SOIL_HORIZ  Text     11    Soil horizon from which the sample was collected (soils only).
+      >          COLOR  Text     26    Observed color of powdered sample during splitting, prior to USGS analysis
+      >      SMPGRSIZE  Text     18    Grain size of material collected in the field (descriptive)
+      >         MEDIUM  Text      9    Sample medium (rock, sediment, standard, or unknown)
+      >         SOURCE  Text     14    Geological source of the sample medium that was collected
+      >     SOURCE_MOD  Text     18    Adjective describing sample source
+      >        UPSIEVE  Integer   4    Sieve size (micrometers) through which sample passed prior to analysis
+      >          DRIED  Text      7    Manner in which sample was dried prior to analysis
+      >      STYPENOTE  Text     72    Notes relevant to medium, source, source_mod, upsieve, and dried fields
+      >
+      > Site attributes
+      >        SETTING  Text     31    Physiographic setting of sample site
+      >      ACCHANWID  Text     14    Width of active stream channel at collection site
+      >       WATERDEP  Text     11    Depth of water at collection site
+      >         WATCOL  Text     17    Color of water at collection site
+      >      FLOWSTAGE  Text     17    Flow stage of stream at time of sample collection
+      >       FLOWRATE  Text     23    Description of flow rate of stream at time of sample collection
+      >         STRBED  Text     45    Material in stream bed at sample collection site
+      >      CONTAMSOU  Text     30    Observed sources of anthropogenic contamination near sample site
+      >      CONTAMPOT  Text     46    Likelihood that the sample is contaminated
+      >     CONTAMDEGR  Text     13    Degree to which sample is likely to be contaminated
+      >            VEG  Text     76    Description of vegetation around sample site
+      >             PH  Real     10.3  pH of  water at sample site
+      >
+      > Sample attributes - detailed
+      >      GRAINSIZE  Text     16    Grain size observed during splitting prior to USGS analysis (coarse or fine)
+      >      COLLECTOR  Text     25    Name, abbreviation, or code for person or team that collected the sample
+      >       PRIME_ID  Text      9    Primary NURE sample name
+      >         LASLID  Text      6    Los Alamos NURE field name
+      >         ORNLID  Text      7    Oak Ridge NURE field name
+      >          SRLID  Text      9    Savannah River NURE field name
+      >          LLLID  Text      8    Lawrence Livermore NURE field name
+      >           SITE  Text      8    Other NURE name info
+      >          XSITE  Text      7    Quality control/assurance info for Lawrence Livermore Lab
+      >          REPLC  Text      3    NURE Replicate codes
+      >        LABCOND  Real     10.3  Conductivity meaured in laboratory
+      >          GRABS  Integer   2    Number of grabs or subsamples
+      >         SAMPHR  Integer   2    Time of day that sample was collected
+      >       ORGN_PCT  Integer   2    Estimated %organics
+      >          STUDY  Text      4    Special NURE study code
+      >           ODOR  Text     12    Sample odor observed in field
+      >
+      > Site attributes - detailed
+      >         PHOTOS  Text     19    Names of photographs taken at collection site
+      >      FLDPLNWID  Text     11    Width of flood plain at sample collection site
+      >         RELIEF  Text     27    Relief in drainage basin from which sample was collected
+      >      FORMATION  Text     44    Code or name of geologic formation in which sample area was located
+      >       SGEOUNIT  Text      4    Geologic unit at sample site
+      >            ALK  Real     10.5  Total alkalinity of water at sample site
+      >         O_DISS  Real     10.5  Dissolved oxygen (ppm) in water at sample site
+      >           SCIN  Real     10.5  Gamma activity at sample site
+      >        AIRTEMP  Real     10.3  Air temperature at time of collection
+      >        WTRTEMP  Real     10.3  Water temperature at time of collection
+      >           COND  Real     10.3  Conductivity of water at sample site
+      >        STRFLOW  Real     10.5  Stream velocity (m/s) at sample collection site
+      >       STR_CHAN  Text     10    Describes whether stream is depositing or eroding at collection site
+      >          WEATH  Text     25    Weather observations at time of sample collection
+      >       VEG_DENS  Text     12    Density of vegetation around sample site
+      >      ROCK_TYPE  Text     20    Rock type in area of sample collection
+      >       ROCK_COL  Text     15    Rock color in area of sample collection
+      >
+      > Analyses by ICP/Acid dissolution
+      >      ICP40_JOB  Text     10    Job number for ICP 40-element method
+      >       AL_ICP40  Real     12.5  Al (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CA_ICP40  Real     12.5  Ca (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       FE_ICP40  Real     12.5  Fe (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >        K_ICP40  Real     12.5  K  (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       MG_ICP40  Real     12.5  Mg (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       NA_ICP40  Real     12.5  Na (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >        P_ICP40  Real     12.5  P  (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       TI_ICP40  Real     12.5  Ti (wt%) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       AG_ICP40  Real     12.5  Ag (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       AS_ICP40  Real     12.5  As (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       AU_ICP40  Real     12.5  Au (ppb) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       BA_ICP40  Real     12.5  Ba (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       BE_ICP40  Real     12.5  Be (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       BI_ICP40  Real     12.5  Bi (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CD_ICP40  Real     12.5  Cd (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CE_ICP40  Real     12.5  Ce (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CO_ICP40  Real     12.5  Co (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CR_ICP40  Real     12.5  Cr (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CU_ICP40  Real     12.5  Cu (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       EU_ICP40  Real     12.5  Eu (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       GA_ICP40  Real     12.5  Ga (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       HO_ICP40  Real     12.5  Ho (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       LA_ICP40  Real     12.5  La (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       LI_ICP40  Real     12.5  Li (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       MN_ICP40  Real     12.5  Mn (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       MO_ICP40  Real     12.5  Mo (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       NB_ICP40  Real     12.5  Nb (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       ND_ICP40  Real     12.5  Nd (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       NI_ICP40  Real     12.5  Ni (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       PB_ICP40  Real     12.5  Pb (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       SC_ICP40  Real     12.5  Sc (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       SN_ICP40  Real     12.5  Sn (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       SR_ICP40  Real     12.5  Sr (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       TA_ICP40  Real     12.5  Ta (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       TH_ICP40  Real     12.5  Th (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >        U_ICP40  Real     12.5  U  (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >        V_ICP40  Real     12.5  V  (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >        Y_ICP40  Real     12.5  Y  (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       YB_ICP40  Real     12.5  Yb (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       ZN_ICP40  Real     12.5  Zn (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       CS_ICP40  Real     10.3  Cs (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       RB_ICP40  Real     10.3  Rb (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       SB_ICP40  Real     10.3  Sb (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >       ZR_ICP40  Real     10.3  Zr (ppm) by Inductively Coupled Plasma Spectrometry after acid dissolution
+      >
+      > Analyses by AA
+      >         AS_JOB  Text     10    Job number for As method
+      >          AS_AA  Real     11.3  As (ppm) by Hydride Atomic Absorption
+      >         SE_JOB  Text     10    Job number for Se method
+      >          SE_AA  Real     11.3  Se (ppm) by Hydride Atomic Absorption
+      >         HG_JOB  Text     10    Job number for Hg method
+      >          HG_AA  Real     12.5  Hg (ppm) by Cold Vapor Atomic Absorption
+      >         SB_JOB  Text     10    Job number for Sb method
+      >          SB_AA  Real     10.3  Sb (ppm) by Hydride Atomic Absorption
+      >         TE_JOB  Text     10    Job number for Te method
+      >          TE_AA  Real     11.3  Te (ppm) by Hydride Atomic Absorption
+      >         TL_JOB  Text     10    Job number for Tl method
+      >          TL_AA  Real     11.3  Tl (ppm) by Hydride Atomic Absorption
+      >          W_JOB  Text     10    Job number for W method
+      >           W_VS  Real     10.3  W  (ppm) by Visible Spectrophotometry
+      >         AU_JOB  Text     10    Job number for Au method
+      >          AU_AA  Real     14.5  Au (ppb) by Graphite Furnace Atomic Absorption
+      >       PDPT_JOB  Text     10    Job number for Pd and Pt method
+      >          PD_AA  Real     10.3  Pd (ppb) by Graphite Furnace Atomic Absorption
+      >          PT_AA  Real     10.3  Pt (ppb) by Graphite Furnace Atomic Absorption
+      >
+      > Analyses by ICP Partial Chem
+      >      ICP10_JOB  Text     10    Job number for ICP 10-element partial extraction method
+      >       AG_ICP10  Real     13.5  Ag (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       AS_ICP10  Real     13.5  As (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       AU_ICP10  Real     13.5  Au (ppb) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       BI_ICP10  Real     13.5  Bi (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       CD_ICP10  Real     13.5  Cd (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       CU_ICP10  Real     13.5  Cu (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       MO_ICP10  Real     13.5  Mo (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       PB_ICP10  Real     13.5  Pb (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       SB_ICP10  Real     13.5  Sb (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       ZN_ICP10  Real     12.5  Zn (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       GA_ICP10  Real     10.3  Ga (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       HG_ICP10  Real     10.3  Hg (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       SE_ICP10  Real     10.3  Se (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       TE_ICP10  Real     10.3  Te (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >       TL_ICP10  Real     10.3  Tl (ppm) by Partial Extraction Inductively Coupled Plasma Spectrometry
+      >
+      > Analyses by Fusion ICP
+      >      ICP16_JOB  Text     10    Job number for ICP 16-element fusion method
+      >       AL_ICP16  Real      9.3  Al (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       CA_ICP16  Real      9.3  Ca (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       FE_ICP16  Real      9.3  Fe (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >        K_ICP16  Real      9.3  K  (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       MG_ICP16  Real      9.3  Mg (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       NA_ICP16  Real      9.3  Na (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >        P_ICP16  Real      9.3  P  (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       SI_ICP16  Real      9.3  Si (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       TI_ICP16  Real      9.3  Ti (wt%) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       BA_ICP16  Real      9.3  Ba (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       CR_ICP16  Real      9.3  Cr (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       MN_ICP16  Real      9.3  Mn (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       NB_ICP16  Real      9.3  Nb (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       SR_ICP16  Real      9.3  Sr (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >        Y_ICP16  Real      9.3  Y  (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >       ZR_ICP16  Real      9.3  Zr (ppm) by Inductively Coupled Plasma Spectrometry after peroxide fusion
+      >
+      > Analyses by NAA
+      >     INAAJOB_US  Text     10    Job number for USGS INAA method
+      >     INAAJOB_BE  Text     10    Job number for Becquerel INAA method
+      >        NA_INAA  Real     11.3  Na (wt%) by Instrumental Neutron Activation Analysis
+      >        SC_INAA  Real     11.3  Sc (ppm) by Instrumental Neutron Activation Analysis
+      >        TI_INAA  Real     11.3  Ti (wt%) by Instrumental Neutron Activation Analysis
+      >        CR_INAA  Real     11.3  Cr (ppm) by Instrumental Neutron Activation Analysis
+      >        FE_INAA  Real     11.3  Fe (wt%) by Instrumental Neutron Activation Analysis
+      >        CO_INAA  Real     11.3  Co (ppm) by Instrumental Neutron Activation Analysis
+      >        NI_INAA  Real     11.3  Ni (ppm) by Instrumental Neutron Activation Analysis
+      >        ZN_INAA  Real     11.3  Zn (ppm) by Instrumental Neutron Activation Analysis
+      >        AS_INAA  Real     11.3  As (ppm) by Instrumental Neutron Activation Analysis
+      >        BR_INAA  Real      8.3  Br (ppm) by Instrumental Neutron Activation Analysis
+      >        RB_INAA  Real     11.3  Rb (ppm) by Instrumental Neutron Activation Analysis
+      >        SR_INAA  Real     11.3  Sr (ppm) by Instrumental Neutron Activation Analysis
+      >        ZR_INAA  Real     11.3  Zr (ppm) by Instrumental Neutron Activation Analysis
+      >        MO_INAA  Real      9.3  Mo (ppm) by Instrumental Neutron Activation Analysis
+      >        SB_INAA  Real     11.3  Sb (ppm) by Instrumental Neutron Activation Analysis
+      >        CS_INAA  Real     11.3  Cs (ppm) by Instrumental Neutron Activation Analysis
+      >        BA_INAA  Real     11.3  Ba (ppm) by Instrumental Neutron Activation Analysis
+      >        LA_INAA  Real     11.3  La (ppm) by Instrumental Neutron Activation Analysis
+      >        CE_INAA  Real     11.3  Ce (ppm) by Instrumental Neutron Activation Analysis
+      >        ND_INAA  Real     11.3  Nd (ppm) by Instrumental Neutron Activation Analysis
+      >        SM_INAA  Real     11.3  Sm (ppm) by Instrumental Neutron Activation Analysis
+      >        EU_INAA  Real     11.3  Eu (ppm) by Instrumental Neutron Activation Analysis
+      >        TB_INAA  Real     11.3  Tb (ppm) by Instrumental Neutron Activation Analysis
+      >        YB_INAA  Real     11.3  Yb (ppm) by Instrumental Neutron Activation Analysis
+      >        LU_INAA  Real     11.3  Lu (ppm) by Instrumental Neutron Activation Analysis
+      >        HF_INAA  Real     11.3  Hf (ppm) by Instrumental Neutron Activation Analysis
+      >        TA_INAA  Real     11.3  Ta (ppm) by Instrumental Neutron Activation Analysis
+      >         W_INAA  Real     11.3  W  (ppm) by Instrumental Neutron Activation Analysis
+      >        AU_INAA  Real     11.3  Au (ppb) by Instrumental Neutron Activation Analysis
+      >        TH_INAA  Real     11.3  Th (ppm) by Instrumental Neutron Activation Analysis
+      >         U_INAA  Real     11.3  U  (ppm) by Instrumental Neutron Activation Analysis
+      >         DN_JOB  Text     10    Job number for Delayed Neutron method
+      >           U_DN  Real      8.3  U  (ppm) by Delayed Neutron Activation Analysis
+      >          TH_DN  Real      8.3  Th (ppm) by Delayed Neutron Activation Analysis
+      >
+      > Analyses by XRF
+      >        XRF_JOB  Text     10    Job number for XRF method
+      >       SIO2_XRF  Real     10.3  SiO2  (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >      AL2O3_XRF  Real     10.3  Al2O3 (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >      FE2O3_XRF  Real     10.3  Fe2O3 (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >        MGO_XRF  Real     10.3  MgO   (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >        CAO_XRF  Real     10.3  CaO   (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >       NA2O_XRF  Real     10.3  Na2O  (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >        K2O_XRF  Real     10.3  K2O   (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >       TIO2_XRF  Real     10.3  TiO2  (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >       P2O5_XRF  Real     10.3  P2O5  (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >        MNO_XRF  Real     10.3  MnO   (wt%) by Wavelength-Dispersive X-Ray Fluorescence
+      >        LOI925C  Real     10.3  Loss on Ignition (wt%) preceding Wavelength-Dispersive X-Ray Fluorescence
+      >
+      > Analyses for light elements
+      >        C_S_JOB  Text     10    Job number for Carbon and Sulfur method
+      >          C_TOT  Real     13.3  Total carbon (wt%) by Combustion
+      >          C_ORG  Real     10.3  Organic carbon (wt%) by difference from c_tot and c_co3
+      >          C_CO3  Real     10.3  Carbonate carbon (wt%) by Coulometric Titration
+      >          S_TOT  Real     10.3  Total sulfur (wt%) by Combustion
+      >
+      > Analyses by NURE program
+      >        AL_NURE  Real     12.5  Al (wt%) measured by the NURE program
+      >        CA_NURE  Real     12.5  Ca (wt%) measured by the NURE program
+      >        FE_NURE  Real     12.5  Fe (wt%) measured by the NURE program
+      >         K_NURE  Real     12.5  K  (wt%) measured by the NURE program
+      >        MG_NURE  Real     12.5  Mg (wt%) measured by the NURE program
+      >        NA_NURE  Real     12.5  Na (wt%) measured by the NURE program
+      >        AG_NURE  Real     12.5  Ag (ppm) measured by the NURE program
+      >        AS_NURE  Real     12.5  As (ppm) measured by the NURE program
+      >        AU_NURE  Real     12.5  Au (ppb) measured by the NURE program
+      >         B_NURE  Real     12.5  B  (ppm) measured by the NURE program
+      >        BA_NURE  Real     12.5  Ba (ppm) measured by the NURE program
+      >        BE_NURE  Real     12.5  Be (ppm) measured by the NURE program
+      >        BI_NURE  Real     12.5  Bi (ppm) measured by the NURE program
+      >        BR_NURE  Real     12.5  Br (ppm) measured by the NURE program
+      >        CD_NURE  Real     12.5  Cd (ppm) measured by the NURE program
+      >        CE_NURE  Real     12.5  Ce (ppm) measured by the NURE program
+      >        CL_NURE  Real     12.5  Cl (ppm) measured by the NURE program
+      >        CO_NURE  Real     12.5  Co (ppm) measured by the NURE program
+      >        CR_NURE  Real     12.5  Cr (ppm) measured by the NURE program
+      >        CS_NURE  Real     12.5  Cs (ppm) measured by the NURE program
+      >        CU_NURE  Real     12.5  Cu (ppm) measured by the NURE program
+      >        DY_NURE  Real     12.5  Dy (ppm) measured by the NURE program
+      >        EU_NURE  Real     12.5  Eu (ppm) measured by the NURE program
+      >         F_NURE  Real     12.5  F  (ppm) measured by the NURE program
+      >        HF_NURE  Real     12.5  Hf (ppm) measured by the NURE program
+      >        HG_NURE  Real     12.5  Hg (ppm) measured by the NURE program
+      >        LA_NURE  Real     12.5  La (ppm) measured by the NURE program
+      >        LI_NURE  Real     12.5  Li (ppm) measured by the NURE program
+      >        LU_NURE  Real     12.5  Lu (ppm) measured by the NURE program
+      >        MN_NURE  Real     12.5  Mn (ppm) measured by the NURE program
+      >        MO_NURE  Real     12.5  Mo (ppm) measured by the NURE program
+      >        NB_NURE  Real     12.5  Nb (ppm) measured by the NURE program
+      >        NI_NURE  Real     12.5  Ni (ppm) measured by the NURE program
+      >         P_NURE  Real     12.5  P  (ppm) measured by the NURE program
+      >        PB_NURE  Real     12.5  Pb (ppm) measured by the NURE program
+      >        PT_NURE  Real     12.5  Pt (ppm) measured by the NURE program
+      >        RB_NURE  Real     12.5  Rb (ppm) measured by the NURE program
+      >        SB_NURE  Real     12.5  Sb (ppm) measured by the NURE program
+      >        SC_NURE  Real     12.5  Sc (ppm) measured by the NURE program
+      >        SE_NURE  Real     12.5  Se (ppm) measured by the NURE program
+      >        SM_NURE  Real     12.5  Sm (ppm) measured by the NURE program
+      >        SN_NURE  Real     12.5  Sn (ppm) measured by the NURE program
+      >        SR_NURE  Real     12.5  Sr (ppm) measured by the NURE program
+      >        TA_NURE  Real     12.5  Ta (ppm) measured by the NURE program
+      >        TB_NURE  Real     12.5  Tb (ppm) measured by the NURE program
+      >        TH_NURE  Real     12.5  Th (ppm) measured by the NURE program
+      >        TI_NURE  Real     12.5  Ti (wt%) measured by the NURE program
+      >         V_NURE  Real     12.5  V  (ppm) measured by the NURE program
+      >         W_NURE  Real     12.5  W  (ppm) measured by the NURE program
+      >         Y_NURE  Real     12.5  Y  (ppm) measured by the NURE program
+      >        YB_NURE  Real     12.5  Yb (ppm) measured by the NURE program
+      >        ZN_NURE  Real     12.5  Zn (ppm) measured by the NURE program
+      >        ZR_NURE  Real     12.5  Zr (ppm) measured by the NURE program
+      >         U_NURE  Real     12.5  U  (ppm) [Preferred value if more than one method was used by NURE]
+      >
+      > Analytical details
+      >         LABNO2  Text     19    A second name under which the same sample was analyzed
+      >     PREV_LABNO  Text     16    Unique laboratory name for sample when analyzed at USGS 1980-1997.
+      >      FLDNAM_AN  Text     19    Field name of sample as analyzed (authoritative name in FLDNAM field)
+      >       AOV_CODE  Text      2    Analysis of variance code
+      >      REPLICATE  Text     10    Lab number of duplicate analysis
+      >      LOC_COUNT  Integer   2    Number of samples at these coordinates
+      >     ANAL_NOTES  Text     40    Notes made during processing of data
+      >      NURE_METH  Text     40    Analytical method codes for ~1980 NURE data
+      >
+    Entity_and_Attribute_Detail_Citation: http://tin.er.usgs.gov/geochem/about.php
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peter N Schweitzer
+        Contact_Organization: U.S. Geological Survey, ER
+      Contact_Position: Geologist
+      Contact_Address:
+        Address_Type: mailing address
+        Address:
+          Mail Stop 954
+          12201 Sunrise Valley Drive
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-6533
+      Contact_Facsimile_Telephone: 703-648-6252
+      Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+  Resource_Description: USGS Open-File Report 2004-1001
+  Distribution_Liability:
+    The USGS makes no guarantee or warranty concerning the accuracy of
+    information contained in the geographic data.  The USGS further makes
+    no warranties, either expressed or implied as to any other matter
+    whatsoever, including, without limitation, the condition of the
+    product, or its fitness for any particular purpose.  The burden for
+    determining fitness for use lies entirely with the user.  Although
+    this data has been processed successfully on computers at the USGS, no
+    warranty, expressed or implied, is made by the USGS regarding the use
+    of this data on any other system, nor does the fact of distribution
+    constitute or imply any such warranty.
+
+    In no event shall the USGS have any liability whatsoever for payment
+    of any consequential, incidental, indirect, special, or tort damages
+    of any kind, including, but not limited to, any loss of profits
+    arising out of use of or reliance on the geographic data or arising
+    out of the delivery, installation, operation, or support by the USGS.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Shapefile
+        Format_Version_Number: 1.0
+        Format_Information_Content: Sample information and geochemical measurements, geographic areas of coverage specified by the user
+        File_Decompression_Technique: unzip
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://tin.er.usgs.gov/geochem/select.php
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: DBF
+        Format_Version_Number: dBase III
+        Format_Information_Content: Sample information and geochemical measurements, geographic areas of coverage specified by the user
+        File_Decompression_Technique: unzip
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://tin.er.usgs.gov/geochem/select.php
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: HTML
+        Format_Version_Number: 2.0
+        Format_Information_Content: Sample information and geochemical measurements, geographic areas of coverage specified by the user
+        File_Decompression_Technique: unzip
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://tin.er.usgs.gov/geochem/select.php
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Text
+        Format_Specification: Tab-delimited or comma-delimited, at user's option
+        Format_Information_Content: Sample information and geochemical measurements, geographic areas of coverage specified by the user
+        File_Decompression_Technique: unzip
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://tin.er.usgs.gov/geochem/select.php
+    Fees: none
+Metadata_Reference_Information:
+  Metadata_Date: 20081003
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peter N Schweitzer
+        Contact_Organization: U.S. Geological Survey, ER
+      Contact_Position: Geologist
+      Contact_Address:
+        Address_Type: mailing address
+        Address:
+          Mail Stop 954
+          12201 Sunrise Valley Drive
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-6533
+      Contact_Facsimile_Telephone: 703-648-6252
+      Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+  Metadata_Standard_Name: Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
