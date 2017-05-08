@@ -13,10 +13,13 @@ def brownian_motion(sigma, n, dt, startval, runs):
     storedvals = np.empty((runs+1,int(n/dt)))
     storedvals[0,0] = 0
     storedvals[:,0] = B_si
-    brownianplot = plt.figure()
+    brownianplot = plt.figure() 
     brownianplotaxes = brownianplot.add_axes([0,0,1,1])
     brownianplotaxes.set_xlabel('Time')
     brownianplotaxes.set_ylabel('Value')
+#    title = str(runs)+' Runs of Brownian Motion with Initial Value '\
+#    +str(startval)
+#    brownianplotaxes.set_title(title)
     for r in range(runs):
         B_si = startval
         for i in range(0,int(n/dt),int(dt/dt)):
@@ -28,4 +31,4 @@ def brownian_motion(sigma, n, dt, startval, runs):
             # print("Observation ",i+1,": ",B_si)
     return storedvals, brownianplot
 
-sample = brownian_motion(1,365,0.001,0,10)
+sample = brownian_motion(1,5,0.001,0,10)

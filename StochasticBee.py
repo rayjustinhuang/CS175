@@ -7,6 +7,7 @@ Created on Mon May  8 11:50:06 2017
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 
 L = 1500
 alpha = 0.25
@@ -56,3 +57,12 @@ plt.xlabel('Days')
 plt.plot(run2[0], run2[2])
 plt.ylabel('Forager Bees')
 plt.xlabel('Days')
+
+stochasticbee1 = plt.figure()
+stochasticbee1axes = stochasticbee1.add_axes([0,0,1,1])
+stochasticbee1axes.plot(run2[0],run2[1], label='Hive Bees')
+stochasticbee1axes.plot(run2[0],run2[2], label='Forager Bees')
+stochasticbee1axes.legend()
+stochasticbee1axes.set_xlabel('Days')
+stochasticbee1axes.set_ylabel('Number of Bees')
+stochasticbee1axes.set_title('Bee Population Fluctuation with Standard Brownian Motion')
