@@ -66,3 +66,18 @@ stochasticbee1axes.legend()
 stochasticbee1axes.set_xlabel('Days')
 stochasticbee1axes.set_ylabel('Number of Bees')
 stochasticbee1axes.set_title('Bee Population Fluctuation with Standard Brownian Motion')
+
+def plot_bees(run, title):
+    fig = plt.figure()
+    axes = fig.add_axes([0,0,1,1])
+    axes.plot(run[0],run[1], label='Hive Bees')
+    axes.plot(run[0],run[2], label='Forager Bees')
+    axes.legend()
+    axes.set_xlabel('Days')
+    axes.set_ylabel('Number of Bees')
+    axes.set_title(title)
+    return None
+
+increaseddeathrates = [1500,0.25,0.75, 0.54, 0.06, 10000, 9000, 5000]
+run3 = stochastic_bee(1, 365, 0.001, increaseddeathrates)
+plot_bees(run3, "Bee Population Fluctuation with Increased Forager Death Rates")
